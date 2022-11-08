@@ -1,0 +1,791 @@
+html {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+.secciones{
+    background-color: rgb(34, 27, 27);
+}
+
+.logo{
+    margin-top: 1rem;
+}
+
+
+h1{
+    font-size: 4rem;
+}
+
+.navegacion{
+    background:rgba(0,0,0,0);
+    display: flex;
+    gap: 1.9rem;
+    padding: 2rem;
+    list-style: none;
+    justify-content: center;
+
+}
+
+.navegacion a{
+    
+    color: blanchedalmond;
+    font-size: 3rem;
+    text-decoration: none;
+
+}
+
+.header{
+    background:rgba(0,0,0,0);
+    height: 15rem;
+    display: block;
+}
+
+.footer{
+    display: block;
+    height: 15rem;
+}
+
+.copyright{
+    text-align: center;
+    font-size: 2rem;
+    color: antiquewhite;
+    padding: 5rem;
+}
+.logo{
+    text-align: center;
+}
+
+/* .logo-fusa{
+    width: 13rem;
+    margin-top: 1rem;
+} */
+
+.header img, footer img{   
+    width: 8rem;
+}
+
+.redes{
+    display: flex;
+    gap: 5rem;
+    margin-left: 80%;
+    margin-top: 1rem;
+}
+
+.redes img{
+    border-radius: 1rem;
+    width: 4rem;
+}
+
+.container-video{
+    gap: 1rem;
+    margin-top: 1rem;
+    height: 70%;
+    width: 100%;
+}
+
+.video{
+    position: relative;
+}
+
+.reel{
+    display: block;
+    width: 100%;
+    }
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    color: antiquewhite;
+
+}
+
+.titulo-gral{
+    background:rgba(0,0,0,0.3);
+    /* background-image: url('../img/wallpaper.jpg');
+        background-size: cover;
+     background-position: center center; */
+    /* background: rgb(29, 19, 11);  fallback for old browsers */
+    /* background: -webkit-linear-gradient(to right, black, rgb(29, 19, 11));  Chrome 10-25, Safari 5.1-6 */
+    /* background: linear-gradient(to right, black, rgb(29, 19, 11)); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    margin-top: 1rem;
+    padding: 1%;
+    cursor: pointer;
+    border-radius: 4%;
+    text-align: center;
+}
+h2{
+    font-size: 2.5rem;
+    
+}
+
+.titulo-mas{
+    text-align: center; 
+    
+}
+
+.mision,
+.vision,
+.valores{  
+    border-radius: 2rem;
+    text-align: center;
+    margin-top: 1rem;
+    background:rgba(0,0,0,0.3);   
+    padding: 2rem;
+    cursor: pointer;
+}
+
+.mostrar-mision{
+    display: block;
+    text-align: center;
+
+}
+
+.mostrar-vision{
+    
+    display: block;
+    text-align: center;
+}
+
+.mostrar-team{
+    display: block;
+}
+
+.mostrar-valores{
+    display: block;
+    margin-right: 10%;
+}
+.contenido-vision,
+.contenido-mision{
+    display: none;
+}
+
+.contenido-vision p,
+.contenido-mision p{
+    border-radius: 2rem;
+    background:rgba(0,0,0,0.8);
+    padding: 3rem;
+    
+}
+
+.contenido-valores li{
+    border-radius: 2rem;
+    background:rgba(0,0,0,0.8);
+    margin-top: 0.2rem;
+    padding: 0.5rem;
+}
+
+.mision p,
+.vision p,
+.valores li{
+    font-size: 2rem;
+    list-style:none;
+}
+
+.mas{
+    display: none;   
+}
+
+.contenido-servicios{
+    display: none;
+}
+
+.mostrar-servicios{
+    display: block;
+}
+
+
+.listado-servicios{
+    background:rgba(0,0,0,0.3); 
+    margin-top: 1rem;
+    padding: 2rem;
+    list-style: none;
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+/* TEAM CREATIVO */
+.contenido-team{
+    text-align: center;
+}
+
+.card-team{
+    width: 85%;
+    margin: 0 auto;
+    background:rgba(0,0,0,0.4); 
+    padding: 1rem;
+    margin-top: 1rem;
+}
+
+.card-team h2{
+    background:rgba(0,0,0,0.5);
+    border-radius: 2%;
+    padding: 1rem;
+}
+
+.card-team p{
+    font-size: 2.5rem;
+}
+
+@media (min-width:260px){
+
+    .video-fondo{
+        position: fixed;
+        min-width: 500%;
+        min-height: 100%;  
+        top: 50%;
+        left: 50%;
+        transform: translateX(-50%) translateY(-50%);
+        z-index: -1;
+    }
+
+    .redes{          
+        display: flex;
+        margin-left: 0%;
+        justify-content: center;
+    }
+
+    .navegacion{
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        text-align: center;
+        gap: 1.9rem;
+        margin-top: 1rem;
+        list-style: none;
+        justify-content: center;        
+    }
+
+    .navegacion a{
+        font-size: 2.5rem;
+    }
+
+    .titulo-gral h1{
+        font-size: 2.8rem;
+    }
+
+
+    .contenido-vision,
+    .contenido-mision,
+    .contenido-valores,
+    .contenido-team{
+        display: none;
+    }
+
+    .mostrar-mas{
+        display: block;
+    } 
+    .mostrar-mision{
+        display:block;
+    }
+    .mostrar-vision{
+        display:block;
+    }
+    .mostrar-valores{
+        display: block;
+    }
+    .mostrar-team{
+        display: block;
+    }
+    
+}
+
+
+@media (min-width:480px){
+
+    
+    .video-fondo{
+        position: fixed;
+        min-width: 400%;
+        min-height: 100%;  
+        top: 50%;
+        left: 50%;
+        transform: translateX(-50%) translateY(-50%);
+        z-index: -1;
+    }
+
+    .redes{
+                
+        display: flex;
+        margin-left: 0%;
+    }
+
+    .navegacion{   
+                 
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        text-align: center;
+        gap: 1.9rem;
+        
+        list-style: none;
+        justify-content: center;            
+    }
+
+    .navegacion a{
+        font-size: 2.5rem;
+    }
+
+    .titulo-gral h1{
+        font-size: 3rem;
+    }
+
+    .mostrar-mas{
+        display: block;
+    }
+
+
+    
+}
+
+
+@media (min-width:768px){
+
+    
+    .navegacion{
+        display: flex;
+    }
+
+    .video-fondo{
+        position: fixed;
+        min-width: 200%;
+        min-height: 100%;  
+        top: 50%;
+        left: 50%;
+        transform: translateX(-50%) translateY(-50%);
+        z-index: -1;
+    }
+    
+    .header{
+        height: 15rem;
+    }
+
+    .redes{
+        display: flex;
+        gap: 5rem;
+        margin-left: 70%;
+    }
+    .navegacion{
+        display: flex;
+        gap: 1.9rem;
+        margin-top: 3rem;
+        list-style: none;
+        justify-content: space-between;
+        width: 65%;
+        margin: 0 auto;     
+    }
+
+    .navegacion a{
+        font-size: 3rem;   
+    }
+
+    .titulo-gral h1{
+        font-size: 4rem;
+    }
+    .mostrar-mas{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;   
+        margin: 0 auto;
+    }
+
+    .mostrar-mision{
+        display: grid;
+        grid-template-rows: 10rem;
+        text-align: center;
+    }
+
+    .contenido-vision,
+    .contenido-mision,
+    .contenido-valores{
+        display: block;
+        border-radius: 10%;
+    }
+    .reel{
+        width: 70%;
+        margin: 0 auto;
+    }
+
+}
+
+@media (min-width:1200px){
+    .reel{
+        width: 80%;
+        margin: 0 auto;
+    }
+
+
+    .video-fondo{
+        position: fixed;
+        min-width: 100%;
+        min-height: 100%;  
+        top: 50%;
+        left: 50%;
+        transform: translateX(-50%) translateY(-50%);
+        z-index: -1;
+    }
+
+    .navegacion a{
+        font-size: 3rem;    
+    }
+
+    .redes{
+        display: flex;
+        gap: 5rem;
+        margin-left: 80%;
+    }
+
+    .titulo-gral h1{
+        font-size: 4rem;
+    }
+
+    .mostrar-mas{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;   
+        margin: 0 auto;
+    }
+
+    .mostrar-mision{
+        display: grid;
+        grid-template-rows: 10rem;
+        text-align: center;
+    
+    }
+}
+
+/* #prensa{
+    padding: 2rem;
+} */
+
+.footer {
+    margin-top: 2rem;
+}
+
+
+/* Prensa */
+
+.titulo{
+    background-color: rgb(32, 17, 17);
+    height: 10rem;
+}
+
+.titulo h1{
+    text-align: center;
+    color: blanchedalmond;
+    font-size: 7rem;
+    padding: 1rem;
+}
+
+.contenido-prensa{
+    display: block;
+    text-align: center;
+}
+ 
+.logos-prensa{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.logos-prensa img{
+    width: 13rem;
+}
+
+#ecuaviza{
+   width: 100%;  
+}
+
+#tama{
+    margin-top: 2.7rem;
+}
+
+.titulo-prensa-pais{
+    color: blanchedalmond;
+    
+    background-color: rgb(70, 32, 10);
+    font-size: 3rem;
+    width: 85%;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+    height: 8rem;
+    border-radius: 3%;
+}
+
+.titulo-prensa-pais h2{
+    padding: 2.7rem;
+}
+
+.logos-prensa{
+    width: 82%;
+    margin: 0 auto;
+    
+}
+
+.card-prensa{
+    /* background-image: url('../video/REEL\ FUSSA\ 2020.7.mp4');
+    background-position: center;
+    background-size: cover; */
+    background-color: rgb(19, 13, 8);
+    border-radius: 5%;
+    width: 23rem;
+    height: 15rem;
+}
+
+.logo-grande{
+    margin-top: 1rem;
+}
+
+.logo-mediano{
+    margin-top: 3.7rem;
+}
+
+#funky-monks{
+    margin-top: 2.8rem;
+}
+
+.logo-chico{
+    margin-top: 5.2rem;
+}
+
+.logo-intermedio{
+    margin-top: 2rem;
+}
+
+
+
+/*   Comtacto   */
+
+.contacto{
+    background:rgba(0,0,0,0.3);
+    border-radius: 5%;
+    color: blanchedalmond;
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 2rem;
+    padding: 3rem;
+}
+
+.contenido-contacto{
+    text-align: center;
+    gap: 2rem;
+}
+
+.diana{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.diana  img{
+    width: 6rem;
+}
+
+/* .linkedin{
+    text-align: right;
+    margin-right: 14rem;
+} */
+
+.linkedin img{
+    width: 4rem;
+   
+}
+
+.contacto-linkedin{
+    padding: 1rem;
+    background:rgba(0,0,0,0.3);
+    border-radius: 5%;
+    
+}
+
+.contacto-gmail{
+    background:rgba(0,0,0,0.3);
+    padding: 1rem;
+    border-radius: 5%;
+}
+
+.contacto img{
+    width: 8rem;
+}
+
+@media (min-width:260px) {
+    .contacto h1{
+        font-size: 2rem;
+    }
+
+    .contacto img{
+        width: 5rem;
+    }
+
+
+    .contenido-contacto{
+        display: block;
+    }
+
+    blockquote{
+        font-size: 2rem;
+    }
+
+    .contacto-gmail{
+        margin-top: 1rem;
+    }
+
+    
+}
+
+
+@media (min-width:480px) {
+    .contacto h1{
+        font-size: 2.2rem;
+    }
+
+    .contacto img{
+        width: 6rem;
+    }
+
+    .contenido-contacto{
+        display: block;
+    }
+
+    blockquote{
+        font-size: 2rem;
+    }
+
+    .contacto-gmail{
+        margin-top: 1rem;
+    }
+
+    
+}
+
+@media (min-width:768px) {
+    .contacto h1{
+        font-size: 3rem;        
+    }
+
+    .contacto img{
+        width: 8rem;
+    }
+    
+    .contenido-contacto{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    blockquote{
+        font-size: 2.8rem;
+    }
+
+    
+    .direccion-mail h1{
+        margin-top: 4rem;
+    }
+
+    .contacto-gmail{
+        margin-top: 0rem;
+    }
+}
+
+@media (min-width:900px) {
+    .contacto h1{
+        font-size: 3rem;        
+    }
+    .contacto img{
+        width: 8rem;
+    }
+
+    .contenido-contacto{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        
+    }
+
+    blockquote{
+        font-size: 2.8rem;
+    }
+
+
+    .direccion-mail h1{
+        margin-top: 4rem;
+    }
+    
+    .contacto-gmail{
+        margin-top: 0rem;
+    }
+
+}
+
+/* Artistas */
+
+.contenido-artistas{
+    width: 90%;
+    margin: 0 auto;
+    color: blanchedalmond;
+    
+}
+
+.artistas{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-top: 2rem;
+    justify-content: center;
+}
+
+.logo-artista img{
+    width: 20rem;
+}
+
+.card-artista{
+    height: 35rem;
+    background-color: rgb(19, 13, 8);
+    border-radius: 9%;
+    
+}
+
+#zurdo{
+    margin-top: 7rem;
+}
+
+#zurdo-titulo{
+    margin-top: 8.3rem;
+}
+
+#selek{
+    margin-top: 4rem;
+}
+
+#nac-sel{
+    padding: 1.5rem;
+}
+
+#logo-tawa{
+    margin-top: 5rem;
+}
+
+#visual{
+    padding: 1.7rem;
+}
+
+#perro{
+    margin-top: 5.5rem;
+}
+
+.nombre-artista p{
+    text-align: center;
+    font-size: 2rem;
+    padding: 1rem;
+}
+
+.footer{
+    text-align: center;
+}
+
+.footer p{
+    font-size: 1.8rem;
+    color: antiquewhite;
+}
+
+.logo-tommy{
+    width: 20rem;
+    
+}

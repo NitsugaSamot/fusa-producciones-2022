@@ -1,0 +1,156 @@
+.video-evento {
+    width: 100%;
+    margin: 0 auto;
+    /* padding: 5rem; */
+   text-align: center;
+}
+
+
+.canelazo{
+    margin-top: 2rem;
+    justify-content: center;
+}
+.contenedor-video{
+    background:rgba(0,0,0,0.5);
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 2rem;
+}
+
+.titulo-video{
+        background:rgba(0,0,0,0.3);
+        margin-top: 1rem;
+        padding: 1%;
+        cursor: pointer;
+        border-radius: 4%;
+        text-align: center;
+        color: blanchedalmond;
+    }
+.img-min{
+    width: 25rem;
+    height: 20rem;
+}
+
+.img-max{
+    width: 90rem;
+    height: 80rem;
+}
+
+@media (min-width: 260px) {
+    .canelazo{
+        width: 100%;
+    
+    }
+
+    .contenedor-video{
+        width: 100%;
+    }
+
+    .contenedor-video{
+        display: block;
+    }
+
+    .video-eventos{
+        display: block;
+    }
+
+}
+
+@media (min-width: 480px) {
+    .canelazo{
+        width: 50rem;
+    
+    }
+
+    .contenedor-video{
+        width: 100%;
+    }
+
+    .contenedor-video{
+        display: block;
+    }
+
+    
+    .video-eventos{
+        display: block;
+    }
+
+}
+
+@media (min-width: 768px) {
+    .canelazo{
+        width: 70rem;
+    
+    }
+
+    .contenedor-video{
+        width: 90%;
+    }
+
+    
+    .video-eventos{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (min-width: 900px) {
+    .canelazo{
+        width: 70rem;
+    }
+
+    .contenedor-video{
+        width: 90%;
+    }
+
+    .video-eventos{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-top: 1rem;
+    }
+}
+
+.footer p{
+    font-size: 1.8rem;
+    color: antiquewhite;
+}
+
+.logo-tommy{
+    width: 20rem;
+    
+}
+
+
+/* .img-gal{
+    width: 100%;
+    height: 75%;
+} */
+
+/* .galeria{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+
+}
+
+
+
+.galeria-imagenes li{
+    width: 100%;
+    list-style: none;
+}
+
+@keyframes cambio{
+    0% {margin-left: 0;}
+    20%{margin-left: 0;}
+
+    25% {margin-left: -100%;}
+    45%{margin-left: -100%;}
+
+    50% {margin-left: -200%;}
+    70%{margin-left: -200%;}
+
+    75% {margin-left: -300%;}
+    100%{margin-left: -300%;}
+} */

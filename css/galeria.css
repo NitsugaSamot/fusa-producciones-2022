@@ -1,0 +1,23 @@
+.carousel .carousel-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+    width: 60rem;
+    height: 400rem;
+}
+
+.img-galeria{
+    width: 50rem;
+}
+
+.footer p{
+    font-size: 1.8rem;
+    color: antiquewhite;
+}
+
+.logo-tommy{
+    width: 20rem;
+    
+}

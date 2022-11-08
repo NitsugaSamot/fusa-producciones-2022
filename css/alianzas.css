@@ -1,0 +1,33 @@
+
+.card-alianzas{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10rem;
+    justify-content: center;
+    gap: 1rem;
+    
+}
+
+#impulsos{
+    margin-top: 9rem;
+}
+
+.card-alianza{
+    background-color: rgb(19, 13, 8);
+}
+
+
+.card-alianza img{
+    width: 30rem;
+    
+}
+
+.footer p{
+    font-size: 1.8rem;
+    color: antiquewhite;
+}
+
+.logo-tommy{
+    width: 20rem;
+    
+}

@@ -1,0 +1,78 @@
+.contenedor{
+    background: rgb(15, 2, 2);  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, rgb(20, 14, 9), rgb(15, 2, 2));  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, rgb(20, 14, 9), rgb(15, 2, 2)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding: 1%;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 1rem;
+    border-radius: 5%;
+}
+
+.contenido{
+    display: block;
+    color:antiquewhite ;
+    padding: 2rem;
+}
+
+
+
+.titulo-gral h1{
+    margin-left: 2rem;
+}
+
+.contenido-inf{
+    justify-content: space-between;
+    font-size: 3.5rem;
+    width: 70%;
+    margin-left: 4rem;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.contenido-inf p{
+    width: 15rem;
+    height: 5rem;
+    background: rgb(27, 16, 16);  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, rgb(20, 14, 9), rgb(27, 16, 16));  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, rgb(20, 14, 9), rgb(27, 16, 16)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border-radius: 2%;
+    padding: 0.8rem;
+    cursor: pointer;
+}
+
+.contenido-inf2{
+    justify-content: space-between;
+    font-size: 2.6rem;
+    margin-left: 4rem;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.contenido-inf2 p{
+    cursor: pointer;
+    width: 20rem;
+    height: 10rem;
+    background: rgb(27, 16, 16);  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, rgb(20, 14, 9), rgb(27, 16, 16));  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, rgb(20, 14, 9), rgb(27, 16, 16)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border-radius: 5%;
+    padding: 0.8rem;
+    padding: 2rem;
+}
+
+#eventos{
+    padding: 3.5rem;
+}
+
+.footer p{
+    font-size: 1.8rem;
+    color: antiquewhite;
+}
+
+.logo-tommy{
+    width: 20rem;
+    
+}
